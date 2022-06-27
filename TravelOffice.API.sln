@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelOffice.API", "TravelOffice.API\TravelOffice.API.csproj", "{E439715E-77A1-4B6A-907F-CB1A3C7CE934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelOffice.Core", "TravelOffice.Core\TravelOffice.Core.csproj", "{0D308ACC-5740-403D-9F19-E27B04B85D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelOffice.Infrastructure", "TravelOffice.Infrastructure\TravelOffice.Infrastructure.csproj", "{FA611153-5807-454F-97D2-2791978E0A1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelOffice.Tests", "TravelOffice.Tests\TravelOffice.Tests.csproj", "{3E5EFD4A-4E66-4EA0-85BD-D5EDE0776761}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E439715E-77A1-4B6A-907F-CB1A3C7CE934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E439715E-77A1-4B6A-907F-CB1A3C7CE934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E439715E-77A1-4B6A-907F-CB1A3C7CE934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E439715E-77A1-4B6A-907F-CB1A3C7CE934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D308ACC-5740-403D-9F19-E27B04B85D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D308ACC-5740-403D-9F19-E27B04B85D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D308ACC-5740-403D-9F19-E27B04B85D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D308ACC-5740-403D-9F19-E27B04B85D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA611153-5807-454F-97D2-2791978E0A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA611153-5807-454F-97D2-2791978E0A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA611153-5807-454F-97D2-2791978E0A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA611153-5807-454F-97D2-2791978E0A1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5EFD4A-4E66-4EA0-85BD-D5EDE0776761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5EFD4A-4E66-4EA0-85BD-D5EDE0776761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5EFD4A-4E66-4EA0-85BD-D5EDE0776761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5EFD4A-4E66-4EA0-85BD-D5EDE0776761}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
