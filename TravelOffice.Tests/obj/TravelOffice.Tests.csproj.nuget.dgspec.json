@@ -4,14 +4,14 @@
     "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj": {
+    "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\TravelOffice.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj",
-        "projectName": "TravelOffice.Tests",
-        "projectPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\TravelOffice.Infrastructure.csproj",
+        "projectName": "TravelOffice.Infrastructure",
+        "projectPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\TravelOffice.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\macie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\obj\\",
+        "outputPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\macie\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,9 +38,83 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj",
+        "projectName": "TravelOffice.Tests",
+        "projectPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\TravelOffice.Tests.csproj",
+        "packagesPath": "C:\\Users\\macie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\macie\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\TravelOffice.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\macie\\RiderProjects\\TravelOffice.API\\TravelOffice.Infrastructure\\TravelOffice.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.7.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.11.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

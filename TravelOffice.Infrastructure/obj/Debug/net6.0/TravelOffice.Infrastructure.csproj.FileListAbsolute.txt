@@ -1,0 +1,12 @@
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\bin\Debug\net6.0\TravelOffice.Infrastructure.deps.json
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\bin\Debug\net6.0\TravelOffice.Infrastructure.dll
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\bin\Debug\net6.0\TravelOffice.Infrastructure.pdb
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.AssemblyInfo.cs
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.dll
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\refint\TravelOffice.Infrastructure.dll
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\TravelOffice.Infrastructure.pdb
+C:\Users\macie\RiderProjects\TravelOffice.API\TravelOffice.Infrastructure\obj\Debug\net6.0\ref\TravelOffice.Infrastructure.dll
